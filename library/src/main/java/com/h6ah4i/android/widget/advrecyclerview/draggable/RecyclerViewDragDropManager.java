@@ -268,16 +268,6 @@ public class RecyclerViewDragDropManager {
             public void onLongPress(MotionEvent e) {
                 handleOnLongPress(e);
             }
-
-            @Override
-            public boolean onSingleTapUp(MotionEvent e) {
-                return true;
-            }
-
-            @Override
-            public boolean onDown(MotionEvent e) {
-                return true;
-            }
         });
         mGestureDetector.setIsLongpressEnabled(true);
 
